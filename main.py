@@ -16,9 +16,9 @@ file_govno = open('messages_from_chat.txt', 'r')
 data = file_govno.readlines() # Читаем текстовый файл и построчно по элементам разбиваем в список
 
 # генерация списка звуковых файлов #
-directory = 'music'
+directory = 'sound'
 files_mp3 = os.listdir(directory)
-files_mp3_dir = [f'music/{files_mp3}' for files_mp3 in files_mp3]
+files_mp3_dir = [f'sound/{files_mp3}' for files_mp3 in files_mp3]
 # генерация списка звуковых файлов#
 
 
